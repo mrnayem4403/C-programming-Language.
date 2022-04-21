@@ -13,7 +13,7 @@ int main()
         int month_limit = limit + baki;
         baki = month_limit-used;
 
-        printf("limit = %d, used = %d, baki = %d\n", month_limit,used,baki);
+       // printf("limit = %d, used = %d, baki = %d\n", month_limit,used,baki);
     }
     int final_limit = limit + baki;
     printf("%d\n", final_limit);
