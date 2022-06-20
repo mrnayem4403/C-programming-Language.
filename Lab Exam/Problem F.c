@@ -2,16 +2,18 @@
 
 int main()
 {
-    int a,b,c;
-    scanf("%d %d %d",&a,&b,&c);
+   int a,b,c;
+   scanf("%d %d %d",&a,&b,&c);
 
-    if(a,b,c == 5 & 7 & 5 )
-    {
-        printf("YES");
-    } else {
+  a,b = 5 ,7 ;
+   c = 5 ,7;
+   if(  a&b & c)
+   {
+       printf("YES");
+   } else {
      printf("NO");
-
-    }
+   }
 
     return 0;
 }
+
